@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import FunctionComponent from './components/FunctionComponent'
+import HomeComponent from './components/HomeComponent'
+import ListComponent from './components/ListComponent'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="container p-5">
+        <h4 className="text-center">LATIHAN REACT</h4>
+        <h5 className="text-center">Belajar State</h5>
+        
+        <br />
+        <HomeComponent />
+        <ListComponent />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
