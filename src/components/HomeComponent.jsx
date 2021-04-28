@@ -1,5 +1,4 @@
-import React, {Component} from 'react'
-import axios from 'axios'
+import React, { Component } from 'react'
 
 export default class HomeComponent extends Component {
   constructor(props) {
@@ -36,7 +35,7 @@ export default class HomeComponent extends Component {
   }
 
   render() {
-    const {name} = this.state
+    const { name } = this.state
     return (
       <div>
         <form onSubmit={this.submitHandler}>
